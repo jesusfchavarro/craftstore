@@ -1,0 +1,26 @@
+.image.text {
+  position: absolute;
+  margin-top: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+
+  font-weight: bold;
+  font-size: 1.28571429em;
+  line-height: 1.2857em;
+  text-align: center;
+}
+
+.ui.cards > .card > .image:not(.ui) > img {
+  -webkit-filter: contrast(70%);
+  /*height: 300px;*/
+}
+
+.ui.four.cards > .card {
+  margin: 0 !impotant;
+}
+
+#content, #search-bar {
+  margin-top: 30px;
+}

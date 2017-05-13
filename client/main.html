@@ -4,53 +4,12 @@
 
 <body>
 
-  <div class="ui container">
-    <div class="ui secondary menu">
-      <div class="header item">
-        <img src="logo.png" class="ui tiny image"/>
-      </div>
-      <div class="header item ui segment">
-        <div class="ui header">
-          CraftStore
-        </div>
-        <div class="ui header">
-          La tienda de los artesanos
-        </div>
-      </div>
-      <div class="item">
-        Compra
-      </div>
-      <div class="item">
-        Crea
-      </div>
-      <div class="item">
-        Aprende
-      </div>
-      <div class="item">
-        Vende
-      </div>
-    </div>
-  </div>
+  {{> principalMenu}}
 
-  <div class="ui segment">
-    This is a text
+  <div class="ui container">
+    {{> searchBar}}
+
+    {{> categoriesList}}
   </div>
 
 </body>
-
-<template name="hello">
-  <button class="ui button">Click Me</button>
-  <span>You've pressed the button {{counter}} times.</span>
-</template>
-
-<template name="info">
-  <div class="ui segment">
-    <h2>Learn Meteor!</h2>
-    <ul>
-      <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-      <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-      <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-      <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-    </ul>
-  </div>
-</template>
