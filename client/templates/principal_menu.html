@@ -1,24 +1,35 @@
 <template name="principalMenu">
-  <div class="ui middle aligned centered grid segment" id="principal-menu">
-    <div class="one wide column">
-      <img class="ui image" src="logo.png"/>
+  <div class="ui middle aligned centered three column stackable grid segment" id="principal-menu">
+    <div class="column">
+      <img src="logo2.png" id="logo">
     </div>
-    <div class="two wide column">
-      <h1>CraftStore</h1>
-    </div>
-    <div class="center aligned eleven wide column">
+    <div class="center aligned column">
       <div class="ui secondary menu">
-        <div class="right menu">
-          <a class="item">Compra</a>
-          <a class="item">Crea</a>
-          <a class="item">Aprende</a>
-          <a class="item">Vende</a>
-          <div class="item">
-            <div class="ui primary button">Iniciar Sesión</div>
-          </div>
-          <div class="item">
-            <div class="ui positive button">Registrarse</div>
-          </div>
+        <a class="item" href="/buy">
+          <i class="large shop icon"></i>
+          Compra
+        </a>
+        <a class="item" href="/craft">
+          <i class="large paint brush icon"></i>
+          Crea
+        </a>
+        <a class="item" href="/learn">
+          <i class="large idea icon"></i>
+          Aprende
+        </a>
+        <a class="item" href="/sell">
+          <i class="large money icon"></i>
+          Vende
+        </a>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui secondary right floated menu">
+        <div class="item">
+          <div class="ui primary button">Iniciar Sesión</div>
+        </div>
+        <div class="item">
+          <div class="ui positive button">Registrarse</div>
         </div>
       </div>
     </div>

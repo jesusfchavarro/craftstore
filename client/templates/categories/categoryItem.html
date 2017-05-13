@@ -1,14 +1,11 @@
 <template name="categoryItem">
-  <!-- <div class="card">
-    <div class="image">
+  <div class="column">
+    <a href={{route}} class="ui bordered image">
       <div class="image text">
-        <i class="large shop icon"></i>
+        <i class="large {{icon_name}} icon"></i>
         {{text}}
       </div>
-      <img src={{image_url}}/>
-    </div>
-  </div> -->
-  <div class="column">
-    <img src={{image_url}}/>
+      <img src={{image_url}}>
+    </a>
   </div>
 </template>
